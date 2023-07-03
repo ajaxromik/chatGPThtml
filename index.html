@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cats & Co. | Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #9e379f;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #ffffff;
+      font-size: 48px;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #493267;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .intro-section {
+      background-color: #ffffff;
+      padding: 40px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .intro-section h2 {
+      color: #9e379f;
+      font-size: 24px;
+      margin: 0;
+    }
+
+    .intro-section p {
+      color: #333333;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-top: 20px;
+    }
+
+    footer {
+      background-color: #333333;
+      padding: 20px;
+      text-align: center;
+      color: #ffffff;
+      font-size: 14px;
+    }
+    .cat-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .cat-item {
+      width: 250px;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .cat-item img {
+      width: 100%;
+      height: 200px; /* Adjust the height to your desired value */
+      object-fit: cover; /* Ensures the image fills the container without distortion */
+      border-radius: 10px 10px 0 0;
+    }
+
+    .cat-item .cat-info {
+      padding: 10px;
+      background-color: #ffffff;
+      border-radius: 0 0 10px 10px;
+    }
+
+    .cat-item h3 {
+      color: #333333;
+      font-size: 18px;
+      margin: 0;
+    }
+
+    .cat-item p {
+      color: #666666;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Cats & Co.</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="intro-section">
+      <h2>We Love Cats!</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend nibh ac massa semper, eget gravida lectus dignissim. Nulla facilisi. Morbi at leo sed est congue tempus. Aliquam cursus aliquam eros, sit amet ullamcorper neque malesuada a. Nunc pulvinar eleifend tortor, a pharetra lacus.</p>
+      <p>Quisque vel libero felis. Nullam eget velit ac velit dapibus luctus. Duis eget ex eget dolor vehicula finibus. Phasellus pulvinar sapien id dolor gravida, nec consequat mauris eleifend. Sed non lectus sit amet enim bibendum lobortis.</p>
+    </div>
+
+    <div class="cat-intro-section">
+      <h2>Meet Our Amazing Cats</h2>
+      <div class="cat-container">
+        <!-- Placeholder for cat images (to be added later) -->
+        <div class="cat-item">
+          <img src="littlegoober.png" alt="Crazy Cat!">
+          <div class="cat-info">
+            <h3>Goober</h3>
+            <p>This little guy loves to go crazy and attack everything he sees!</p>
+          </div>
+        </div>
+
+        <div class="cat-item">
+          <img src="eeper.png" alt="Sleepy Cat!">
+          <div class="cat-info">
+            <h3>Eeper</h3>
+            <p>This little one loves a good nap.</p>
+          </div>
+        </div>
+
+        <div class="cat-item">
+          <img src="hecker.png" alt="Silly Cat!">
+          <div class="cat-info">
+            <h3>Hecker</h3>
+            <p>This cat is always so silly!</p>
+          </div>
+        </div>
+    </div>
+  </main>
+  <footer>
+    &copy; 2023 Cats & Co. All rights reserved.
+  </footer>
+</body>
+</html>
